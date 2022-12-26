@@ -28,14 +28,14 @@ header a {
 
 h2::after {
     background-color: #0a3574;
-            bottom: -10px;
-            height: 3px;
-            width: 40px;
-            position: relative;
-            content: "";
-            display: block;
-            font-weight: lighter;
-  }
+    bottom: -10px;
+    height: 3px;
+    width: 40px;
+    position: relative;
+    content: "";
+    display: block;
+    font-weight: lighter;
+}
 
 .domains-list {
     display: flex;
@@ -53,7 +53,7 @@ h2::after {
 
 .domain-card p {
     text-align: center;
-    
+
 }
 
 .domain-card img {
@@ -74,9 +74,7 @@ h2::after {
     width: 100px;
 }
 
-.brands-list {
-    
-}
+.brands-list {}
 
 .brands-list img {
     width: 100px;
