@@ -21,7 +21,7 @@ header h1 {
 
 .domains-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .domain-card {
@@ -43,6 +43,20 @@ header h1 {
     border-radius: 10px 10px 0 0;
 }
 
+.discover-us {
+    background: white;
+    border-radius: 8px;
+}
+
 .labels-list img {
     width: 100px;
+}
+
+.brands-list {
+    
+}
+
+.brands-list img {
+    width: 100px;
+    margin-right: 10px;
 }
