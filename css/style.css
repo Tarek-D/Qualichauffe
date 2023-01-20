@@ -4,18 +4,16 @@ body {
 }
 
 main {
-    padding: 20px;
+    
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background-color: #0a3574;
-    color: white;
-    height: 100px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
 }
 
 header h1 {
@@ -26,8 +24,39 @@ header a {
     color: white;
 }
 
+.top-section {
+    position: relative;
+}
+
+.top-section img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.top-section h1 {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: white;
+}
+
+.phonecall {
+    position: absolute;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 500;
+    right: 30px;
+    bottom: 30px;
+    color: black;
+    z-index: 2;
+    background-color: burlywood;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
 h2::after {
-    background-color: #0a3574;
+    background-color: burlywood;
     bottom: -10px;
     height: 3px;
     width: 40px;
@@ -37,34 +66,45 @@ h2::after {
     font-weight: lighter;
 }
 
+h2 {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
 .domains-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .domain-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 30%;
+    margin-right: 30px;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 10px;
     align-items: center;
 }
 
-.domain-card p {
+.domain-card h3 {
+    position: absolute;
+    bottom: 10px;
+    background-color: black;
+    color: #f1f2f4;
+    padding: 5px;
     text-align: center;
-
+    border-radius: 5px;
 }
 
 .domain-card img {
     object-fit: cover;
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
 }
 
 .discover-us {
-    background: #0a3574;
-    color: white;
+    background: #f1f2f4;
     font-weight: 500;
     border-radius: 8px;
     padding: 10px;
@@ -79,4 +119,31 @@ h2::after {
 .brands-list img {
     width: 100px;
     margin-right: 10px;
+}
+
+.achievement-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 30px;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.achievement-card h3 {
+    position: absolute;
+    bottom: 5px;
+    color: #f1f2f4;
+    text-align: center;
+    border-radius: 5px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.achievement-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
